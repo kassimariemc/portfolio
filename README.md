@@ -1,5 +1,3 @@
 # kassimariemc.github.io
 
-## Description
-
-My personal portfolio
+my personal portfolio
