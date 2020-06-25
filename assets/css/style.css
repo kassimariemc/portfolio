@@ -1,53 +1,72 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
-
 body {
   /* Typography */
   font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 150%;
-  color: #333;
+  line-height: 200%;
+  color: rgb(87, 79, 79);
 
   /* Visual */
   background: #efeee7;
 }
 
 header {
-  background: #d21034;
+  /* Visual */
+  background: #333;
+  
+  /* Positioning */
+  position: fixed;
+  width: 100%;
 }
 
 h1 {
   /* Box-model */
-  padding: 20px 0;
+  padding: 20px 10px;
+  display: inline-block;
 
   /* Positioning */
-  margin-bottom: 20px;
+  margin-left: 40px;
   font-size: 28px;
 
   /* Typography */
   color: #eee;
   text-align: center;
+  background-color: #af3d3d;
+}
 
-  /* Visual */
-  background: #333;
+nav {
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* link colors */
+a {
+  color: #af3d3d;
+  text-decoration: none;
 }
 
 h2 {
   font-size: 24px;
 }
 
-a {
-  color: #d21034;
-}
 
 .container {
   /* Box-model */
-  width: 1024px;
+  width: 100%;
 
   /* Positioning */
   margin: 0 auto;
+  padding-top: 150px;
+  padding-left: 40px;
 }
 
 #main-bio,
@@ -58,18 +77,18 @@ a {
 
 #main-bio {
   width: 70%;
+  background-color: white;
+  padding: 20px;
 }
 
 #contact-info {
   width: 30%;
+  background-color: white;
 }
 
 #bio-image {
-  /* Box-model */
-  width: 200px;
-  height: 200px;
-
+  width: 30%;
   /* Positioning */
-
   margin-right: 20px;
+  padding-top: 10px;
 }
