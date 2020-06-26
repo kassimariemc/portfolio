@@ -58,14 +58,16 @@ a:hover {
 
 /* Container Sections */
 
-.container {
+.containers {
   padding-top: 150px;
+  margin-left: 60px;
 }
 
-#main-bio, #contact-info {
+#main-bio, #contact-info, #portfolio {
   width: 70%;
   background-color: white;
   padding: 20px;
+  border: 1px solid rgb(189, 183, 183);
 }
 
 /* About Me, Portfolio, Contact Headings */
@@ -79,7 +81,7 @@ h2 {
 /* Lines below headings */
 hr {
   border: none;
-  background-color: rgb(158, 152, 152);;
+  background-color: rgb(158, 152, 152);
   height: 2px;
 }
 
@@ -88,12 +90,31 @@ p {
   font-size: 20px;
 }
 
+/* About Me Image*/
 #bio-image {
   width: 30%;
   /* Positioning */
   float: left;
   margin-right: 20px;
   padding-top: 10px;
+}
+
+/* Portfolio Images */
+.portfolio-image {
+  width: 250px;
+  height: 250px;
+  float: left;
+  z-index: 0;
+}
+
+.col {
+  width: 250px;
+  margin-top: 20px;
+}
+.portfolio-headings {
+  z-index: 1;
+  background-color: #af3d3d;
+  color: #eee;
 }
 
 /* Form on Contact Page */
