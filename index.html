@@ -6,67 +6,101 @@
   <meta charset="UTF-8">
   <!-- Bootstrap Responsive Pages-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Kassi Stumb's Portfolio</title>
-  <!-- CSS Reset -->
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
   <!-- Google Fonts Links-->
   <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
-  <!-- Bootstrap Link -->
+  
+  <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <!-- Linking CSS -->
+
+  <!-- Linking Custom CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   
 </head>
 
 <body>
-
-  <!-- Header Section -->
   <header>
-    <h1>Kassi Stumb</h1>
 
     <!-- Bootstrap Nav Bar-->
-    <nav>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg">
+      <span class="navbar-brand h1">Kassi Stumb</span>
+
+      <div class="navbar-collapse justify-content-end">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+  <!-- End Nav Bar-->
 
   </header>
 
-  <div class="containers">
+  <!-- Main About Me Section-->
+  <main class="container">
+    <div class="row">
 
-    <!-- About Me Section -->
-    <section id="main-bio">
+      <section class="col-md-8 section-border">
 
-      <h2>About Me</h2>
-      <hr>
-      <img class="portfolio-image" src="assets/images/kassi-pic.jpg" alt="photo of Kassi Stumb" id="bio-image">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem natus sint aperiam, voluptate repellendus officiis? Officiis praesentium corporis autem quos consequatur eius vel inventore!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim culpa ex deleniti amet sapiente debitis vero explicabo molestias excepturi eos tenetur, quis perferendis! Unde, magnam!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim culpa ex deleniti amet sapiente debitis vero explicabo molestias excepturi eos tenetur, quis perferendis! Unde, magnam!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim culpa ex deleniti amet sapiente debitis vero explicabo molestias excepturi eos tenetur, quis perferendis! Unde, magnam!
-      </p>
+        <div class="page-header">
+          <h1>About Me</h1>
+        </div>
 
-    </section>
+        <div class="page-header">
+          <hr>
+        </div>
 
-  </div>
+        <div class="row image-row">
+          <div class="col-md-4">
+            <img class="bio-image" src="assets/images/kassi-pic.jpg" alt="Photo of Kassi Stumb">
+          </div>
+          <div class="col-md-8">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. 
+            </p>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
+              felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
+              non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+              luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+              neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+              dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+              posuere sem congue a.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Space taking up 4 Columns-->
+      <div class="col-md-4"></div>
+
+    </div>
+  </main>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -20,57 +20,78 @@
 </head>
 
 <body>
-
-  <!-- Header Section -->
   <header>
-    <h1>Kassi Stumb</h1>
 
     <!-- Bootstrap Nav Bar-->
-    <nav>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg">
+      <span class="navbar-brand h1">Kassi Stumb</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse.in navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+  <!-- End Nav Bar-->
 
   </header>
 
-  <div class="containers">
-
-    <!-- Contact Section-->
-    <section id="contact-info">
-
-      <h2>Contact Me</h2>
-
-      <hr>
-
-      <!-- Bootstrap Form -->
-      <form>
-        <div class="form-group">
-          <label for="inlineFormInput">Name</label>
-          <input type="text" class="form-control mb-2 border" id="inlineFormInput" placeholder="Jane Smith">
+  <!-- Contact Section-->
+  <main class="container">
+    <div class="row">
+  
+      <section class="col-md-8 section-border">
+        <div class="page-header">
+          <h1>Contact Me</h1>
         </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+  
+        <div class="page-header">
+          <hr>
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control border" id="exampleFormControlTextarea1" rows="6"></textarea>
-        </div>
-        <button type="submit" class="btn button">Submit</button>
-      </form>
+  
+        <!-- Bootstrap Form -->
+        <form>
+          <div class="form-group">
+            <label for="inlineFormInput">Name</label>
+            <input type="text" class="form-control mb-2 border" id="inlineFormInput" placeholder="Jane Smith">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control border" id="exampleFormControlTextarea1" rows="6"></textarea>
+          </div>
+          <button type="submit" class="btn button">Submit</button>
+        </form>
 
-    </section>
+      </section>
 
-  </div>
+      <!--Space taking up 4 Columns-->
+      <div class="col-md-4"></div>
+
+    </div>
+  </main>
+  
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 
