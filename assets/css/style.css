@@ -10,18 +10,17 @@ body {
 
 /* Header Section */
 
-nav {
+header {
   background: rgb(65, 64, 64);
 }
 
   /* Kassi Stumb */
-  .h1 {
+  .navbar-brand {
     font-size: 28px;
     color: #eee;
     background-color: #af3d3d;
 
     padding: 20px;
-    margin: 5px 60px:
   }
 
   /* Links */
@@ -66,6 +65,7 @@ p {
 
 .image-row {
   padding-top: 10px;
+  padding-top: 10px;
 }
 
 /* Form on Contact Page */
@@ -80,4 +80,35 @@ p {
   border-radius: 0%;
 }
 
-/* Center Navbar for smaller widths */
+/* Footer */
+.bottom-red-line {
+  border: none;
+  background-color: #af3d3d;
+  height: 10px;
+}
+
+footer {
+  background-color: #807f7b;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.copyright {
+  padding: 20px;
+  color: #eee;
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-collapse {
+    background-color: #eee;
+    justify-content: center;
+    width: 100%;
+  }
+  .navbar-brand {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+
