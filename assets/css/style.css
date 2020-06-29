@@ -93,13 +93,6 @@ footer {
   background-color: #807f7b;
 }
 
-.copyright {
-  padding: 20px;
-  color: #eee;
-  text-align: center;
-}
-
-
 /* Media Quiries */
 
 @media screen and (max-width: 767px) {
