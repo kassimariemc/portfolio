@@ -24,6 +24,7 @@ header {
   }
 
   /* Links */
+
   a {
     color: #af3d3d;
     font-weight: bold;
@@ -36,6 +37,7 @@ header {
 
 
 /* Main Sections */
+
 .section-border {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -65,7 +67,6 @@ p {
 
 .image-row {
   padding-top: 10px;
-  padding-top: 10px;
 }
 
 /* Form on Contact Page */
@@ -85,20 +86,30 @@ p {
   border: none;
   background-color: #af3d3d;
   height: 10px;
+  margin-bottom: 0;
 }
 
 footer {
   background-color: #807f7b;
-  text-align: center;
-  margin-bottom: 0px;
 }
 
 .copyright {
   padding: 20px;
   color: #eee;
+  text-align: center;
 }
 
-@media screen and (max-width: 640px) {
+
+/* Media Quiries */
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 768px;
+  }
+  
+  header {
+    background-color: #af3d3d;
+  }
   .navbar-collapse {
     background-color: #eee;
     justify-content: center;
