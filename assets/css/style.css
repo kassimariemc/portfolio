@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   /* Typography */
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -12,6 +17,7 @@ body {
 
 header {
   background: rgb(65, 64, 64);
+  border: none;
 }
 
   /* Kassi Stumb */
@@ -93,25 +99,34 @@ footer {
   background-color: #807f7b;
 }
 
-/* Media Quiries */
+i {
+  font-size: 36px;
+}
+
+/* Media Queries */
 
 @media screen and (max-width: 767px) {
-  .container {
-    max-width: 768px;
-  }
-  
+
   header {
     background-color: #af3d3d;
-  }
-  .navbar-collapse {
-    background-color: #eee;
-    justify-content: center;
-    width: 100%;
   }
   .navbar-brand {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+  }
+  .navbar-nav {
+    background-color: #eee;
+    justify-content: center;
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
   }
 }
 
