@@ -99,8 +99,8 @@ footer {
   background-color: #807f7b;
 }
 
-footer li {
-  list-style: none;
+footer ul {
+  list-style-type: none;
 }
 
 /* Media Queries */
