@@ -66,14 +66,23 @@ p {
 }
 
 /* Images */
-.bio-image, .portfolio-image {
+.bio-image {
   width: 100%;
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.image-row {
-  padding-top: 10px;
+/* Portfolio Page */
+.card-body {
+  background-color: #af3d3d;
+  margin-top: -100px;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #eee;
+  text-align: center;
 }
 
 /* Form on Contact Page */
