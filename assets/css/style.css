@@ -65,7 +65,7 @@ p {
   font-size: 20px;
 }
 
-/* Images */
+/* Image */
 .bio-image {
   width: 100%;
   float: left;
@@ -120,24 +120,34 @@ footer ul {
   header {
     background-color: #af3d3d;
   }
-  .navbar-brand {
+
+  /* Keep horizontal at collapse */
+  .navbar {
+    flex-flow: row nowrap;
+    display: inline-flex;
     width: 100%;
-    margin: 0 auto;
     text-align: center;
   }
-  .navbar-nav {
-    background-color: #eee;
-    justify-content: center;
+
+  .navbar-brand {
     width: 100%;
   }
 
-}
-
-@media screen and (min-width: 768px) {
-  .navbar-expand-lg {
-    flex-flow: row nowrap;
-    justify-content: flex-start;
+  .collapse-center {
+   width: 100%;
   }
+
+  /* Navbar-nav background color under 767px*/
+  .navbar-nav {
+    background-color: #eee;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+ .collapse-center li {
+   padding: 10px;
+ }
+
 }
 
 
