@@ -99,6 +99,10 @@ footer {
   background-color: #807f7b;
 }
 
+footer li {
+  list-style: none;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 767px) {
