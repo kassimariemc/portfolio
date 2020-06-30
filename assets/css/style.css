@@ -99,10 +99,6 @@ footer {
   background-color: #807f7b;
 }
 
-i {
-  font-size: 36px;
-}
-
 /* Media Queries */
 
 @media screen and (max-width: 767px) {
