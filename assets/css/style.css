@@ -65,6 +65,10 @@ p {
   font-size: 20px;
 }
 
+.about-me-points {
+  justify-content: space-evenly;
+}
+
 /* Images */
 .bio-image {
   width: 100%;
