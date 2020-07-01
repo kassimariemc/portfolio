@@ -5,6 +5,7 @@ My Personal Portfolio. This source code provides an example of a responsive webs
 ## Issues to still fix
 -navbar brand background height over 767px
 -navrbar nav background width and height under 767px
+-should contact form be functional?
 
 ## Included Criteria
 
