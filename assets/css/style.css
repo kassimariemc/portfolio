@@ -7,7 +7,7 @@ body {
   /* Typography */
   font-family: 'Merriweather', serif;
   line-height: 200%;
-  color: rgb(87, 79, 79);
+  color: #264653;
 
   /* Visual */
   background: #F4A261;
@@ -87,6 +87,10 @@ p {
 
 .hobbies {
   font-family: 'Roboto Mono', monospace;
+}
+
+.about-me-border {
+  border: 1px dashed rgb(189, 183, 183);
 }
 
 /* Image */

@@ -3,9 +3,7 @@
 My Personal Portfolio. This source code provides an example of a responsive website. This code is optimized for all screen sizes.
 
 ## Issues to still fix
--navbar brand background height over 767px
--navrbar nav background width and height under 767px
--should contact form be functional?
+-navrbar nav background width under 767px
 
 ## Included Criteria
 
