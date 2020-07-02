@@ -154,11 +154,13 @@ footer ul {
     margin: 0 auto;
     background-color: #264653;
     text-align: center;
+    padding-left: 2px;
   }
 
   .navbar-collapse {
     width: 100%;
     text-align: right;
+    margin-right: 2px;
   }
 
 }

@@ -2,9 +2,6 @@
 
 My Personal Portfolio. This source code provides an example of a responsive website. This code is optimized for all screen sizes.
 
-## Issues to still fix
--navrbar nav background width under 767px
-
 ## Included Criteria
 
 * semantic HTML elements
