@@ -96,7 +96,7 @@ body {
 
   /* Image */
   .bio-image {
-    width: 100%;
+    width: 40%;
     float: left;
     margin: 0 20px 10px 0;
     border-radius: 1%;
@@ -159,6 +159,10 @@ footer ul {
     padding-right: 10px;
   }
 
+  .bio-image {
+    width: 100%;
+    float: none;
+  }
 }
 
 
