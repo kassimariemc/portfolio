@@ -16,9 +16,10 @@ body {
 
 /* Header Section */
 
-header {
+.fixed-top {
   background: #264653;
   border: none;
+  margin-bottom: 50px;
 }
 
 .navbar {
@@ -36,8 +37,8 @@ header {
 
   /* Links */
 
-  a {
-    color: #E76F51;
+  .nav-link {
+    color: #E76F51 !important;
     font-weight: bold;
     font-size: 28px;
   }
@@ -54,6 +55,7 @@ figure {
   background-image: url(../images/background.jpg);
   height: 100%;
   width: 100%;
+  margin-top: 100px;
   margin-bottom: 0;
   background-size: cover;
   background-position: center;
@@ -62,9 +64,10 @@ figure {
 .section-border {
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: white;
+  background-color: rgba(238, 238, 238, 0.7);
   padding: 20px;
   border: 1px solid rgb(189, 183, 183);
+  border-radius: 1%;
 }
 
 /* Lines below headings */
@@ -90,7 +93,8 @@ p {
 }
 
 .about-me-border {
-  border: 1px dashed rgb(189, 183, 183);
+  border: 2px dashed rgb(189, 183, 183);
+  border-radius: 1%;
 }
 
 /* Image */
@@ -146,38 +150,16 @@ footer ul {
 
 @media screen and (max-width: 767px) {
 
-  header {
-    background-color: #E76F51;
-  }
-
-  /* Keep horizontal at collapse */
-  .navbar-expand-md {
-    flex-flow: row nowrap;
-    display: inline-flex;
-    width: 100%;
+  .navbar-brand {
+    margin: 0 auto;
+    background-color: #264653;
     text-align: center;
   }
 
-  .navbar-brand {
+  .navbar-collapse {
     width: 100%;
+    text-align: right;
   }
-
-  .collapse-center {
-   width: 100% !important; 
-   margin: 0 auto !important;
-  }
-
-  /* Navbar-nav background color under 767px*/
-  .navbar-nav {
-    background-color: #eee;
-    flex-flow: row nowrap;
-    justify-content: center;
-    
-  }
-
- .collapse-center li {
-   padding: 10px;
- }
 
 }
 
