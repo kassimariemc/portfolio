@@ -149,7 +149,7 @@ footer ul {
 @media screen and (max-width: 767px) {
 
   .navbar-brand {
-    margin-left: 170px;
+    margin: 0 auto;
     background-color: #264653;
     text-align: center;
   }
