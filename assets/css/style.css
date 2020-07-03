@@ -76,7 +76,9 @@ body {
 
   /* Bio */
   .bio-font {
-    font-family: 'Vollkorn', serif !important;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 500;
     font-size: 20px;
   }
 
