@@ -83,10 +83,12 @@ body {
   .tech-info {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
   }
 
   .hobbies {
     font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
   }
 
   .about-me-border {
