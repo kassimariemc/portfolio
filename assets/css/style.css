@@ -82,6 +82,14 @@ body {
     font-size: 20px;
   }
 
+  #resume {
+    background-color: #E76F51;
+    color: #eee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
   .tech-info {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -117,6 +125,10 @@ body {
     font-weight: bold;
     color: #eee;
     text-align: center;
+  }
+
+  .card img {
+    height: 350px;
   }
 
   /* Form on Contact Page */

@@ -84,12 +84,33 @@
           </div>
 
           <div class="row" title="about me">
+            <div class="col-md-12 about-me-border">
+             <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModal" id="resume">Resume</button>
+            </div>
+          </div>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <iframe src="./assets/images/KStumb_Resume_Web.pdf" width="100%" height="500px"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" title="about me">
             <div class="col-md-6 about-me-border">
               <p class="tech-info">
                 <strong><u>LANGUAGES I SPEAK</u></strong>
               </p>
               <p class="tech-info">
-                <i class="fa fa-cog"></i> HTML <br> <i class="fa fa-cog"></i> CSS <br> <i class="fa fa-cog"></i> JavaScript
+                <i class="fa fa-cog"></i> HTML <br> <i class="fa fa-cog"></i> CSS <br> <i class="fa fa-cog"></i> JavaScript <br>  <i class="fa fa-cog"></i> jQuery 
               </p>
             </div>
             <div class="col-md-6 about-me-border">
@@ -139,6 +160,7 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Bootstrap JavaScript CDN -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
