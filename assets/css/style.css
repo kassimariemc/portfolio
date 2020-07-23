@@ -28,8 +28,12 @@ body {
     font-size: 36px;
     color: #eee;
     background-color: #E76F51;
-
+    border: none;
     padding: 20px;
+  }
+
+  .navbar-brand:focus {
+    outline: none !important;
   }
 
   /* Links */
@@ -38,10 +42,16 @@ body {
     color: #E76F51 !important;
     font-weight: bold;
     font-size: 28px;
+    border: none;
+    background: transparent;
   }
   
-  a:hover {
-    color: #eee;
+  .nav-link:hover {
+    color: #eee !important;
+  }
+
+  .nav-link:focus {
+    outline: none !important;
   }
 
 
@@ -88,6 +98,12 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 24px;
+    border: none;
+  }
+
+  #resume:focus {
+    outline: none !important;
+    border: none !important;
   }
 
   .tech-info {
@@ -127,8 +143,10 @@ body {
     text-align: center;
   }
 
-  .card img {
-    height: 350px;
+
+
+  a:hover {
+    text-decoration: none;
   }
 
   /* Form on Contact Page */
