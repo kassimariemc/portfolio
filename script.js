@@ -11,10 +11,10 @@ function scrollToPortfolio(x) {
 } 
 function scrollToContact(x) {
   if (x.matches) { // If media query matches
-    window.scroll({ top: 3600, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 4000, left: 0, behavior: 'smooth' });
   }
   else {
-    window.scroll({ top: 2100, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 2500, left: 0, behavior: 'smooth' });
   }
 }
 
