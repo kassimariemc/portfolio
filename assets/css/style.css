@@ -131,6 +131,9 @@ body {
   }
 
   /* Portfolio Page */
+  .card {
+    height: 100%;
+  }
   .card-body {
     background-color: #E76F51;
     margin-top: -100px;
