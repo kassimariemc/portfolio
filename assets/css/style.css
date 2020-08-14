@@ -78,7 +78,7 @@ body {
   }
 
   #about-me {
-    animation: stagger 500ms 800ms ease-in-out both;
+    animation: stagger 500ms 900ms ease-in-out both;
   }
 
   /* Lines below headings */
@@ -142,6 +142,11 @@ body {
   .card {
     height: 100%;
   }
+
+  .card:hover {
+    transform: scale(1.04);
+  }
+
   .card-body {
     background-color: #E76F51;
     margin-top: -100px;
@@ -152,22 +157,29 @@ body {
     font-weight: bold;
     color: #eee;
     text-align: center;
+    text-decoration: underline;
   }
 
-  a:hover {
+  .portfolio-links {
+    color: #264653;
+    padding: 10px;
+  }
+
+  .portfolio-links:hover {
     text-decoration: none;
+    color: #eee;
+    font-size: 18px;
   }
 
   /* Form on Contact Page */
-  .button {
+  #email {
     background-color: #E76F51;
     color: #eee;
-    border-radius: 0%;
-    width: 100px;
+    font-size: 24px;
   }
 
-  .border {
-    border-radius: 0%;
+  #email:hover {
+    transform: scale(1.04);
   }
 
 /* Footer */
