@@ -1,3 +1,4 @@
+// Smooth scroll effects
 function scrollToTop() {
   window.scroll({ top: 0, left: 0, behavior: 'smooth' });
 }
@@ -18,5 +19,6 @@ function scrollToContact(x) {
   }
 }
 
-
 var x = window.matchMedia("(max-width: 600px)");
+
+// Slide into view effects
