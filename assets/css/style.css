@@ -77,9 +77,9 @@ body {
     border-radius: 5px;
   }
 
-  #about-me {
+  /* #about-me {
     animation: stagger 500ms 900ms ease-in-out both;
-  }
+  } */
 
   /* Lines below headings */
   hr {
@@ -107,11 +107,6 @@ body {
 
   #resume:hover {
     transform: scale(1.04);
-  }
-
-  #resume:focus {
-    outline: none !important;
-    border: none !important;
   }
 
   .tech-info {
