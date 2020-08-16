@@ -54,6 +54,23 @@ body {
     outline: none !important;
   }
 
+/* Opener */
+.opener {
+  animation: stagger 500ms 900ms ease-in-out both;
+  background-color: rgba(238, 238, 238, 0.7);
+  margin-top: 50px;
+  height: 60vh;
+}
+
+.display-4 {
+  padding-top: 100px;
+}
+
+.lead {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 24px;
+}
+
 
 /* Main Sections */
 
@@ -76,10 +93,6 @@ body {
     border: 1px solid rgb(189, 183, 183);
     border-radius: 5px;
   }
-
-  /* #about-me {
-    animation: stagger 500ms 900ms ease-in-out both;
-  } */
 
   /* Lines below headings */
   hr {
@@ -134,17 +147,16 @@ body {
   }
 
   /* Portfolio Page */
-  .card {
-    height: 100%;
-  }
 
-  .card:hover {
+  .card-img:hover {
     transform: scale(1.04);
+    text-decoration: none;
   }
 
-  .card-body {
+  .card-body-img {
     background-color: #E76F51;
-    margin-top: -100px;
+    margin-top: -12vh;
+    height: 80px;
   }
 
   .card-title {
@@ -152,28 +164,29 @@ body {
     font-weight: bold;
     color: #eee;
     text-align: center;
-    text-decoration: underline;
   }
 
-  .portfolio-links {
-    color: #264653;
-    padding: 10px;
+  .card-description {
+    background-color: transparent;
+    border: none;
   }
 
-  .portfolio-links:hover {
-    text-decoration: none;
-    color: #eee;
-    font-size: 18px;
+  .card-text {
+    padding: 25px;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
   }
 
   /* Form on Contact Page */
-  #email {
+  #uni-btn {
     background-color: #E76F51;
     color: #eee;
     font-size: 24px;
+    margin: 10px;
   }
 
-  #email:hover {
+  #uni-btn:hover {
     transform: scale(1.04);
   }
 

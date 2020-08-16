@@ -4,16 +4,57 @@ function scrollToTop() {
 }
 function scrollToPortfolio(x) {
   if (x.matches) { // If media query matches
-    window.scroll({ top: 1800, left: 0, behavior: 'smooth' });
-    }
-  else {
-    window.scroll({ top: 1100, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 2300, left: 0, behavior: 'smooth' });
   }
-} 
+  else if (y.matches) {
+    window.scroll({ top: 1600, left: 0, behavior: 'smooth' });
+  }
+  else {
+    window.scroll({ top: 1300, left: 0, behavior: 'smooth' });
+  }
+}
 function scrollToContact(x) {
-  window.scroll({ top: 5000, left: 0, behavior: 'smooth' });
+  window.scroll({ top: 8000, left: 0, behavior: 'smooth' });
 }
 
-var x = window.matchMedia("(max-width: 600px)");
+const x = window.matchMedia("(max-width: 600px)");
+const y = window.matchMedia("(max-width: 1025px)");
 
-// Slide into view effects
+
+$(document).ready(function () {
+  // Typewritter effect
+  const words = ['Web developer.', 'Student.', 'Problem solver.', 'Planner.', 'Beer drinker.', 'Hiker.', 'List checker.'];
+  const typeEffectEl = document.querySelector('#type-effect');
+  let letterIndex = 0;
+  let wordIndex = 0;
+
+  initTyping();
+
+  function initTyping() {
+    if (wordIndex < words.length) {
+      window.setTimeout(() => {
+        typeEffectEl.innerHTML = '';
+        letterIndex = 0;
+        printLetters(words[wordIndex]);
+      }, 1000);
+    }
+    else {
+      wordIndex = 0;
+      initTyping();
+    }
+  }
+
+  function printLetters(word) {
+    window.setTimeout(() => {
+      if (letterIndex < word.length) {
+        typeEffectEl.innerHTML += word[letterIndex];
+        letterIndex++;
+        printLetters(word);
+      } else {
+        wordIndex++;
+        initTyping();
+      }
+    }, 100);
+  }
+});
+
