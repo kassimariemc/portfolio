@@ -23,7 +23,7 @@ const y = window.matchMedia("(max-width: 1025px)");
 
 $(document).ready(function () {
   // Typewritter effect
-  const words = ['Web developer.', 'Student.', 'Problem solver.', 'Planner.', 'Beer drinker.', 'Hiker.', 'List checker.'];
+  const words = ['Web developer...', 'Student...', 'Problem solver...', 'Planner...', 'Beer drinker...', 'Hiker...', 'List checker...'];
   const typeEffectEl = document.querySelector('#type-effect');
   let letterIndex = 0;
   let wordIndex = 0;
