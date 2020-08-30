@@ -14,7 +14,7 @@ function scrollToPortfolio(x) {
   }
 }
 function scrollToContact(x) {
-  window.scroll({ top: 8000, left: 0, behavior: 'smooth' });
+  window.scroll({ top: 9000, left: 0, behavior: 'smooth' });
 }
 
 const x = window.matchMedia("(max-width: 600px)");
