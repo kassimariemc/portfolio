@@ -4,17 +4,17 @@ function scrollToTop() {
 }
 function scrollToPortfolio(x) {
   if (x.matches) { // If media query matches
-    window.scroll({ top: 2300, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 2500, left: 0, behavior: 'smooth' });
   }
   else if (y.matches) {
-    window.scroll({ top: 1600, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 1800, left: 0, behavior: 'smooth' });
   }
   else {
-    window.scroll({ top: 1300, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 1500, left: 0, behavior: 'smooth' });
   }
 }
 function scrollToContact(x) {
-  window.scroll({ top: 9000, left: 0, behavior: 'smooth' });
+  window.scroll({ top: 10000, left: 0, behavior: 'smooth' });
 }
 
 const x = window.matchMedia("(max-width: 600px)");
