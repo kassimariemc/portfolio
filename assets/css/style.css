@@ -57,7 +57,7 @@ body {
 /* Opener */
 .opener {
   animation: stagger 500ms 900ms ease-in-out both;
-  background-color: rgba(238, 238, 238, 0.7);
+  background-color: rgba(238, 238, 238, 0.75);
   margin-top: 50px;
   height: 60vh;
 }
@@ -77,18 +77,15 @@ body {
   /* Background Image */
   figure {
     background-image: url(../images/background.jpg);
-    height: 100%;
-    width: 100%;
     margin-top: 100px;
     margin-bottom: 0;
-    background-size: cover;
     background-position: center;
   }
 
   .section-border {
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: rgba(238, 238, 238, 0.7);
+    background-color: rgba(238, 238, 238, 0.75);
     padding: 20px;
     border: 1px solid rgb(189, 183, 183);
     border-radius: 5px;
