@@ -11,4 +11,4 @@ My Personal Portfolio. This source code provides an example of a responsive webs
 
 ## Deployment
 
-[link to deployment](https://kassimariemc.github.io/)
+[link to deployment](https://kassimariemc.github.io/portfolio/)
